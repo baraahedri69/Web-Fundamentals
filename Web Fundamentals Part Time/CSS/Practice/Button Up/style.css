@@ -1,0 +1,39 @@
+
+.search {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid rgb(13, 154, 133);
+    border-radius: 20px; 
+    color: green;
+    text-align: center;
+    font-weight: bold;}
+
+.search::placeholder {
+    color: green; }
+
+.circle-button {
+    margin-bottom: 10px;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    background-color: #4ee296; 
+    color: white; 
+    font-size: 24px; 
+    border: none;
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.create-account {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px;  
+    outline: 4px solid rgba(0, 0, 0, 0.4);
+    outline-color: black;
+    margin-top: 10px;}
+.button-container {
+    margin-top: 10px; }
