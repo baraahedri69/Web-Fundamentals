@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #FFFFFF;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.nav-links a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.flex-container {
+    width: 1000px;  
+    margin: 0 auto;
+}
+
+.flex-container, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+}
+
+
+.btn {
+    width: 100px;
+    height: 35px;
+    background-color: #17A2B8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
+.nav-links a.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.flex-conatinerr.main {
+    align-items: flex-start;
+}
+
+.col-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 20px;
+    background-color: #222;
+    color: #f3f3f3;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h2,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.user-card .card-header {
+    background-color: #17A2B8;
+    height: 90px;
+    margin-bottom: 70px;
+    display: block;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #467EAF;
+}
+
+.dates {
+    color: #808080;
+}
+
+.card-list-item,
+.card-list-item > * {
+    display: flex;
+    align-items: center;
+}
+
+.card-list {
+    padding: 0 20px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.card-list-item {
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.avatar-s, .icon {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-list-item.start {
+    justify-content: flex-start;
+}
+
+.icon {
+    height: 35px;
+}
+
+.icon, .btn {
+    cursor: pointer;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.badge {
+    background-color: #CCCCCC;
+    font-size: 1rem;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.card-footer{
+    border-top: 2px solid #999;
+    background-color: #fff;
+    padding: 20px;
+}
