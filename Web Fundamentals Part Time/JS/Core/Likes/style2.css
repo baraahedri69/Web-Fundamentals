@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left: 150px;
+    width: 80%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.your-feed {
+    text-align: center;
+    width: 100%;
+}
+
+.content-container {
+    display: flex;
+}
+
+.main-section {
+    margin-top: 20px;
+    width: 150px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+    margin-left: 150px;
+}
+
+.avatar-section {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.avatar-section img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-avatar {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.aside-section {
+    width: 200%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.aside-section h3 {
+    margin-bottom: 5px; 
+}
+
+.like-section {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    margin-left: 20px;
+}
+
+.like-count {
+    margin-right: 10px;
+
+}
+
+.like-button {
+    background-color: yellow;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+h3 {
+    margin: 0;
+    display: inline; 
+}
+
+p {
+    margin-top: 20px;
+}

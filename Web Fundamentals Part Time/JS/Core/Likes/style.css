@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    width: 400px; 
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 2px solid black;
+}
+
+h3 {
+    margin: 0;
+    display: inline; 
+}
+
+.like-section {
+    display: inline-block; 
+    margin-left: 20px;
+}
+
+.like-count {
+    margin-right: 10px;
+}
+
+.like-button {
+    background-color: yellow;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+}
