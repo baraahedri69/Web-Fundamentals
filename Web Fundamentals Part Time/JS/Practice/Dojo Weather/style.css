@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top {
+    background-color: #9FC5F8;
+    color: white;
+}
+
+.nav, .container {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.nav {
+    display: flex;height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.nav ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+.nav h1 {
+    font-size: 2.5rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+.subtitle-line {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+
+.subtitle-line h2 {
+    font-size: 1.8rem;
+}
+
+.subtitle-line label, .subtitle-line select {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.subtitle-line select {
+    width: 60px;
+}
+
+.row{
+    display: flex;
+}
+
+.forecast {
+    flex: 1;
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 40px 0;
+    margin-right: 20px;
+}
+
+.forecast:last-child {
+    margin-right: 0;
+}
+
+.forecast img {
+    border-radius: 50%;
+    width: 156px;
+    margin: 40px 0;
+}
+
+.forecast p {
+    font-size: 1.2rem;
+}
+
+
+.temperatures {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.high, .low {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.high::after, .low::after {
+    content:  "°";
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.cookie-policy {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    box-shadow: 4px 4px #000;
+    background-color: #9FC5F8;
+    cursor: pointer;
+}
+
+
+.text { 
+    width: 70%;
+}
+
+
+.text h2 {
+    font-size: 1.8rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}
